@@ -1,3 +1,6 @@
+import { ISelectedSwitch } from '../SwitcherWebPart';
+
 export interface ISwitcherProps {
-  description: string;
+  switches: ISelectedSwitch[];
+  handleSwitch: any;
 }
